@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <button class="toggle-navbar">☰</button>
+        <nav class="navbar">
+            <a href="#inicio">Inicio</a>
+            <a href="#acerca_de">Acerca de</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#herramientas">Herramientas</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+
+
+    <section class="inicio" id="inicio">
+        <div class="content">
+            <h1>Hola soy Victor Manuel Rojas Serna 👋</h1>
+
+            <div class="container">
+                <p>soy un desarrollador fullstack apacionado de aprender, desarrollar y buscar soluciones de sofware</p>
+                <div class="imagen">
+                    <img src="/images/imagen de anime esti.png" alt="Victor Rojas">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="acerca_de" id="acerca_de">
+        <div class="cont_acerca_de">
+           <div class="gota"></div>
+            <div class="cont_acerca">
+
+                <p>Hola, soy <strong>Victor Manuel Rojas Serna</strong>, un 
+                <strong>desarrollador fullstack</strong> apasionado por la 
+                tecnología, el aprendizaje constante y la creación de 
+                soluciones digitales innovadoras.
+                </p>
+                <p>Me encanta trabajar tanto en el <strong>frontend</strong> como 
+                    en el <strong>backend</strong>, siempre buscando la mejor 
+                    experiencia para el usuario 🚀
+                </p>
+            </div>
+         </div>
+    </section>
+    <section class="proyectos" id="proyectos">
+        <div class="proyec">
+            <h1>EStos son algunos de mis proyectos</h1>
+        <div class="card">
+            <h2>📚 Librería</h2>
+            <p>
+                Sistema tipo red social con roles (<strong>admin</strong> y <strong>usuario</strong>).
+                Los administradores agregan libros y los usuarios pueden verlos, comentarlos y dar likes.
+            </p>
+            <a href="https://github.com/victormanuelcode/libreria" target="_blank">Ver en GitHub</a>
+        </div>
+        </div>
+    </section>
+    <section class="herramientas" id="herramientas">
+        <div class="herrami">
+            <h1>Estas son las herramientas que utilizo</h1>
+            <div class="cards_herrami">
+                <div class="card_herrami">
+                    <h3>HTML, CSS, JS</h3>
+                    <img src="/images/course_6020_image.png" alt="html, css, js">
+                </div>
+                <div class="card_herrami">
+                    <h3>PHP</h3>
+                    <img src="/images/Sin título.jpg" alt="PHP">
+                </div>
+                <div class="card_herrami">
+                    <h3>Laravel</h3>
+                    <img src="/images/free-laravel-logo-icon-svg-png-download-7417040.png" alt="laravel">
+                </div>
+                <div class="card_herrami">
+                    <h3>React</h3>
+                    <img src="/images/images.jpg" alt="react">
+                </div>
+                <div class="card_herrami">
+                    <h3>Python</h3>
+                    <img src="/images/python.jpg" alt="python">
+                </div>
+                <div class="card_herrami">
+                    <h3>Django</h3>
+                    <img src="/images/gjango.jpg" alt="Django">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="servicios" id="servicios">
+        <div class="servi">
+            <h1>Estos son los servicios que ofrezco</h1>
+            <div class="cards_servi">
+                    <div class="card_servi">
+                        <h3>Desarrollo Web</h3>
+                        <p>Creación de sitios web atractivos y funcionales, adaptados a tus necesidades.</p>
+                    </div>
+                    <div class="card_servi">
+                        <h3>Aplicaciones Web</h3>
+                        <p>Desarrollo de aplicaciones web interactivas y escalables para mejorar tu negocio.</p>
+                    </div>
+                    <div class="card_servi">
+                        <h3>Mantenimiento y Soporte</h3>
+                        <p>Servicios continuos para asegurar que tu sitio o aplicación funcione sin problemas.</p>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <section class="contacto" id="contacto">
+        <div class="contact">
+            <h1>Contáctame</h1>
+            <div class="contac">
+                <p>Completa el siguiente formulario para enviarme un mensaje directo 🚀</p>
+                <form class="formulario_contacto" id="formulario">
+                    <input type="text" name="nombre" placeholder="Nombre" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <textarea name="mensaje" placeholder="Mensaje" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="email.js"></script>
+</body>
+</html> 
