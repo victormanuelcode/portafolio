@@ -89,7 +89,7 @@ header {
 }
 
 .inicio {
-    background: url('/images/ChatGPT Image 10 sept 2025, 20_02_22.png')no-repeat center center/cover; /* imagen de fondo */
+    background: url('images/ChatGPT Image 10 sept 2025, 20_02_22.png') no-repeat center center/cover; /* imagen de fondo */
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -161,7 +161,7 @@ header {
 }
 
 .acerca_de {
-    background: url('/images/ChatGPT Image 10 sept 2025, 20_25_33.png') no-repeat center center/cover;
+    background: url('images/ChatGPT Image 10 sept 2025, 20_25_33.png') no-repeat center center/cover;
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -171,44 +171,6 @@ header {
     gap: 20px;
     position: relative;
 }
-.gota {
-    position: absolute;
-    top: 50px; 
-    right: 15%;
-    width: 150px;
-    height: 200px;
-    background: linear-gradient(45deg, cyan, #00ffff, #40e0d0);
-    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
-    box-shadow: 0 0 20px cyan, inset 0 0 20px rgba(255, 255, 255, 0.3);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 2;
-    cursor: pointer;
-    animation: caer 4s ease-in infinite;
-}
-@keyframes caer {
-    0% {
-        transform: translateY(-300px);
-        opacity: 1;
-    }
-    80% {
-        transform: translateY(100vh);
-        opacity: 1;
-    }
-    100% {
-        transform: translateY(120vh);
-        opacity: 0;
-    }
-}
-.gota::before {
-    content: "Victor";
-    color: #0f2027;
-    font-weight: bold;
-    font-size: 18px;
-    text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
-}
-
 
 .acerca_de::after {
     content: "";
@@ -245,7 +207,7 @@ header {
 .proyectos {
     width: 100%;
     min-height: 100vh;
-    background: url('/images/ChatGPT Image 10 sept 2025, 21_16_21.png') no-repeat center center/cover;
+    background: url('images/ChatGPT Image 10 sept 2025, 21_16_21.png') no-repeat center center/cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -326,7 +288,7 @@ header {
 .herramientas {
     width: 100%;
     min-height: 100vh;
-    background: url('/images/ChatGPT Image 10 sept 2025, 21_40_13.png') no-repeat center center/cover;
+    background: url('images/ChatGPT Image 10 sept 2025, 21_40_13.png') no-repeat center center/cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -408,7 +370,7 @@ header {
 .servicios {
     width: 100%;
     min-height: 100vh;
-    background: url('/images/hardware.png') no-repeat center center/cover;
+    background: url('images/hardware.png') no-repeat center center/cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -473,7 +435,7 @@ header {
 }
 
 .contacto {
-    background: url('/images/basededatos.png') no-repeat center center/cover;
+    background: url('images/basededatos.png') no-repeat center center/cover;
     position: relative;
     min-height: 100vh;
     display: flex;

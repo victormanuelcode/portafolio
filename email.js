@@ -1,4 +1,4 @@
-document.getElementById("formulario").addEventListener("submit", async function(e) {
+document.getElementById("formulario").addEventListener("submit", async function (e) {
     e.preventDefault();
 
     const form = e.target;
@@ -15,16 +15,16 @@ document.getElementById("formulario").addEventListener("submit", async function(
     });
 
     if (response.ok) {
-        alert("Mensaje enviado con éxito 🚀");
+        alert("Mensaje enviado con éxito ");
         form.reset();
     } else {
-        alert("Hubo un error ✖️");
+        alert("Hubo un error ");
     }
 });
 
-  const toggleBtn = document.querySelector('.toggle-navbar');
-  const navbar = document.querySelector('.navbar');
+const toggleBtn = document.querySelector('.toggle-navbar');
+const navbar = document.querySelector('.navbar');
 
-  toggleBtn.addEventListener('click', () => {
+toggleBtn.addEventListener('click', () => {
     navbar.classList.toggle('active');
-  });
+});
